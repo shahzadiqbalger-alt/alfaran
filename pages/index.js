@@ -1,8 +1,12 @@
-import { useEffect } from 'react';
+export async function getServerSideProps() {
+  return {
+    redirect: {
+      destination: '/index.html',
+      permanent: false,
+    },
+  };
+}
 
 export default function Home() {
-  useEffect(() => {
-    window.location.replace('/index.html');
-  }, []);
   return null;
 }
