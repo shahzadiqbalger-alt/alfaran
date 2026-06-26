@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Move-Item -Path \"D:\\\\alfaran\\\\index.html\" -Destination \"D:\\\\alfaran\\\\public\\\\index.html\" -Force)",
+      "Bash(Move-Item -Path \"D:\\\\alfaran\\\\style.css\" -Destination \"D:\\\\alfaran\\\\public\\\\style.css\" -Force)",
+      "Bash(Move-Item -Path \"D:\\\\alfaran\\\\script.js\" -Destination \"D:\\\\alfaran\\\\public\\\\script.js\" -Force)",
+      "PowerShell(New-Item *)"
+    ]
+  }
+}

@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Al Faran Travel & Tours - Your trusted travel partner since 2010. Visa assistance, tour packages, flight reservations and travel consultancy in Karachi, Pakistan." />
+  <meta name="keywords" content="travel agency karachi, visa assistance, tour packages, flight booking, Al Faran Travel" />
+  <title>Al Faran Travel & Tours | Your Journey, Our Priority</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== BACK TO TOP BUTTON ===== -->
+  <button id="backToTop" class="btn back-to-top" aria-label="Back to top">
+    <i class="bi bi-arrow-up-short"></i>
+  </button>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg sticky-top" id="mainNavbar">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+        <div class="logo-icon">
+          <i class="fa-solid fa-plane-departure"></i>
+        </div>
+        <div class="logo-text">
+          <span class="brand-main">Al Faran</span>
+          <span class="brand-sub">Travel & Tours</span>
+        </div>
+      </a>
+
+      <!-- Hamburger -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- CTA Buttons -->
+        <div class="d-flex gap-2 flex-wrap mt-3 mt-lg-0">
+          <a href="tel:03343044483" class="btn btn-call">
+            <i class="bi bi-telephone-fill me-1"></i> Call Now
+          </a>
+          <a href="https://wa.me/923343044483" target="_blank" class="btn btn-whatsapp">
+            <i class="bi bi-whatsapp me-1"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles"></div>
+
+    <!-- Animated Plane -->
+    <div class="hero-plane">
+      <i class="fa-solid fa-plane-departure"></i>
+    </div>
+
+    <div class="container hero-content">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-8 col-xl-7">
+          <div class="hero-badge mb-3">
+            <i class="bi bi-star-fill me-1"></i> Trusted Travel Partner Since 2010
+          </div>
+          <h1 class="hero-title">
+            Explore The World<br />
+            <span class="text-gold">With Confidence</span>
+          </h1>
+          <p class="hero-subtitle">
+            Al Faran Travel & Tours has been providing professional travel solutions since 2010.
+            Your journey begins with a single call — let us handle the rest.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#contact" class="btn btn-hero-primary">
+              <i class="bi bi-calendar-check me-2"></i> Book Consultation
+            </a>
+            <a href="#contact" class="btn btn-hero-outline">
+              <i class="bi bi-envelope me-2"></i> Contact Us
+            </a>
+          </div>
+
+          <!-- Stats Row -->
+          <div class="hero-stats mt-5">
+            <div class="hero-stat">
+              <span class="stat-num">1000+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-num">50+</span>
+              <span class="stat-label">Destinations</span>
+            </div>
+            <div class="hero-stat">
+              <span class="stat-num">15+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <i class="bi bi-chevron-double-down"></i>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Left: Image -->
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="about-image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80"
+              alt="Travel Agency - Al Faran Travel & Tours"
+              class="img-fluid about-img"
+              loading="lazy"
+            />
+            <div class="about-badge">
+              <div class="badge-inner">
+                <span class="badge-num">15+</span>
+                <span class="badge-text">Years of Excellence</span>
+              </div>
+            </div>
+            <div class="about-shape"></div>
+          </div>
+        </div>
+
+        <!-- Right: Content -->
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="section-tag">Who We Are</div>
+          <h2 class="section-title">About Al Faran<br /><span class="text-gold">Travel & Tours</span></h2>
+          <p class="section-text">
+            Al Faran Travel & Tours has been serving travelers since 2010, providing reliable visa
+            assistance, tour packages, flight reservations, and travel consultation services. We are
+            committed to making every journey seamless, memorable, and stress-free.
+          </p>
+          <p class="section-text">
+            Based in Karachi, Pakistan, our experienced team of travel consultants is dedicated to
+            finding the best travel solutions tailored to your needs and budget.
+          </p>
+
+          <!-- Feature List -->
+          <ul class="feature-list">
+            <li><i class="bi bi-check-circle-fill"></i> Trusted Since 2010</li>
+            <li><i class="bi bi-check-circle-fill"></i> Worldwide Travel Solutions</li>
+            <li><i class="bi bi-check-circle-fill"></i> Visa Assistance</li>
+            <li><i class="bi bi-check-circle-fill"></i> Professional Support</li>
+            <li><i class="bi bi-check-circle-fill"></i> Affordable Packages</li>
+          </ul>
+
+          <a href="#contact" class="btn btn-primary-custom mt-3">
+            Get Free Consultation <i class="bi bi-arrow-right ms-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section id="services" class="section-padding bg-light-custom">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">What We Offer</div>
+        <h2 class="section-title">Our Premium <span class="text-gold">Services</span></h2>
+        <p class="section-subtitle">Comprehensive travel solutions crafted to exceed your expectations</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Service 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </div>
+            <h4 class="service-title">Tour Packages</h4>
+            <p class="service-text">Customized domestic and international travel packages tailored to your budget and preferences. Inbound & Outbound tours available.</p>
+            <a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="fa-solid fa-earth-asia"></i>
+            </div>
+            <h4 class="service-title">Far East, Middle East & Europe</h4>
+            <p class="service-text">Expertly curated tours across top destinations:</p>
+            <div class="country-tags">
+              <span>Thailand</span><span>Malaysia</span><span>Singapore</span>
+              <span>UAE</span><span>Saudi Arabia</span><span>Turkey</span>
+              <span>UK</span><span>France</span><span>Italy</span>
+            </div>
+            <a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="fa-solid fa-passport"></i>
+            </div>
+            <h4 class="service-title">Worldwide Visa Assistance</h4>
+            <p class="service-text">Complete visa consultation and documentation support for all major countries. Fast, reliable, and hassle-free processing.</p>
+            <a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="fa-solid fa-calendar-check"></i>
+            </div>
+            <h4 class="service-title">Urgent Appointment Services</h4>
+            <p class="service-text">Quick appointment booking assistance for travel requirements, embassy appointments, and urgent travel documentation.</p>
+            <a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card h-100">
+            <div class="service-icon">
+              <i class="fa-solid fa-plane-departure"></i>
+            </div>
+            <h4 class="service-title">Air Travel Services</h4>
+            <p class="service-text">Flight reservations and complete travel support including ticketing, seat selection, baggage assistance, and itinerary planning.</p>
+            <a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- CTA Card -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card service-cta h-100">
+            <i class="bi bi-headset service-cta-icon"></i>
+            <h4>Need a Custom Package?</h4>
+            <p>Our travel experts are ready to build a personalized travel plan just for you.</p>
+            <a href="tel:03343044483" class="btn btn-primary-custom mt-3">
+              <i class="bi bi-telephone-fill me-2"></i> Call Us Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POPULAR DESTINATIONS ===== -->
+  <section id="destinations" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">Explore</div>
+        <h2 class="section-title">Popular <span class="text-gold">Destinations</span></h2>
+        <p class="section-subtitle">Discover our most sought-after travel destinations around the world</p>
+      </div>
+
+      <!-- Carousel -->
+      <div id="destinationsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+
+          <!-- Slide 1: Dubai & Istanbul -->
+          <div class="carousel-item active">
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-3">
+                <div class="dest-card">
+                  <div class="dest-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80" alt="Dubai" loading="lazy" class="dest-img" />
+                    <div class="dest-overlay">
+                      <a href="#contact" class="btn btn-dest">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="dest-info">
+                    <h5><i class="bi bi-geo-alt-fill me-1"></i>Dubai, UAE</h5>
+                    <p>The city of gold — luxury, adventure, and iconic skylines await.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="dest-card">
+                  <div class="dest-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=600&q=80" alt="Istanbul" loading="lazy" class="dest-img" />
+                    <div class="dest-overlay">
+                      <a href="#contact" class="btn btn-dest">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="dest-info">
+                    <h5><i class="bi bi-geo-alt-fill me-1"></i>Istanbul, Turkey</h5>
+                    <p>Where East meets West — history, culture, and breathtaking views.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="dest-card">
+                  <div class="dest-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&q=80" alt="London" loading="lazy" class="dest-img" />
+                    <div class="dest-overlay">
+                      <a href="#contact" class="btn btn-dest">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="dest-info">
+                    <h5><i class="bi bi-geo-alt-fill me-1"></i>London, UK</h5>
+                    <p>Iconic landmarks, world-class museums, and vibrant culture.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="dest-card">
+                  <div class="dest-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600&q=80" alt="Paris" loading="lazy" class="dest-img" />
+                    <div class="dest-overlay">
+                      <a href="#contact" class="btn btn-dest">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="dest-info">
+                    <h5><i class="bi bi-geo-alt-fill me-1"></i>Paris, France</h5>
+                    <p>The city of love — romance, art, and the Eiffel Tower.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2: Bangkok, KL, Singapore, Rome -->
+          <div class="carousel-item">
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-3">
+                <div class="dest-card">
+                  <div class="dest-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=600&q=80" alt="Bangkok" loading="lazy" class="dest-img" />
+                    <div class="dest-overlay">
+                      <a href="#contact" class="btn btn-dest">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="dest-info">
+                    <h5><i class="bi bi-geo-alt-fill me-1"></i>Bangkok, Thailand</h5>
+                    <p>Vibrant street life, ornate temples, and incredible cuisine.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="dest-card">
+                  <div class="dest-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=600&q=80" alt="Kuala Lumpur" loading="lazy" class="dest-img" />
+                    <div class="dest-overlay">
+                      <a href="#contact" class="btn btn-dest">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="dest-info">
+                    <h5><i class="bi bi-geo-alt-fill me-1"></i>Kuala Lumpur</h5>
+                    <p>The Petronas Towers and vibrant multicultural experiences.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="dest-card">
+                  <div class="dest-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=600&q=80" alt="Singapore" loading="lazy" class="dest-img" />
+                    <div class="dest-overlay">
+                      <a href="#contact" class="btn btn-dest">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="dest-info">
+                    <h5><i class="bi bi-geo-alt-fill me-1"></i>Singapore</h5>
+                    <p>A dazzling city-state where modernity meets tropical beauty.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="dest-card">
+                  <div class="dest-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600&q=80" alt="Rome" loading="lazy" class="dest-img" />
+                    <div class="dest-overlay">
+                      <a href="#contact" class="btn btn-dest">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="dest-info">
+                    <h5><i class="bi bi-geo-alt-fill me-1"></i>Rome, Italy</h5>
+                    <p>The Eternal City — ancient history, art, and world-famous cuisine.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev dest-control" type="button" data-bs-target="#destinationsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next dest-control" type="button" data-bs-target="#destinationsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <!-- Indicators -->
+        <div class="carousel-indicators dest-indicators">
+          <button type="button" data-bs-target="#destinationsCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#destinationsCarousel" data-bs-slide-to="1"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section id="why" class="section-padding why-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag light">Why Al Faran?</div>
+        <h2 class="section-title text-white">Why Choose <span class="text-gold">Us</span></h2>
+        <p class="section-subtitle text-white-50">We go the extra mile so your journey is always unforgettable</p>
+      </div>
+
+      <!-- Features Grid -->
+      <div class="row g-4 mb-5">
+        <div class="col-6 col-md-3">
+          <div class="why-card">
+            <i class="bi bi-shield-check"></i>
+            <h6>Trusted Since 2010</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="why-card">
+            <i class="bi bi-people-fill"></i>
+            <h6>Professional Consultants</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="why-card">
+            <i class="bi bi-globe-americas"></i>
+            <h6>Worldwide Visa Assistance</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="why-card">
+            <i class="bi bi-bag-heart-fill"></i>
+            <h6>Best Travel Packages</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="why-card">
+            <i class="bi bi-tags-fill"></i>
+            <h6>Affordable Pricing</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="why-card">
+            <i class="bi bi-lightning-charge-fill"></i>
+            <h6>Fast Processing</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="why-card">
+            <i class="bi bi-headset"></i>
+            <h6>24/7 Support</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="why-card">
+            <i class="bi bi-emoji-smile-fill"></i>
+            <h6>Customer Satisfaction</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Counters -->
+      <div class="row g-0">
+        <div class="col-6 col-md-3">
+          <div class="counter-box">
+            <span class="counter-num" data-target="1000">0</span>
+            <span class="counter-plus">+</span>
+            <p class="counter-label">Happy Clients</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="counter-box">
+            <span class="counter-num" data-target="50">0</span>
+            <span class="counter-plus">+</span>
+            <p class="counter-label">Destinations</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="counter-box">
+            <span class="counter-num" data-target="15">0</span>
+            <span class="counter-plus">+</span>
+            <p class="counter-label">Years Experience</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="counter-box">
+            <span class="counter-num" data-target="100">0</span>
+            <span class="counter-plus">%</span>
+            <p class="counter-label">Customer Support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="section-padding bg-light-custom">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">Reviews</div>
+        <h2 class="section-title">What Our <span class="text-gold">Clients Say</span></h2>
+        <p class="section-subtitle">Real experiences from our valued travelers</p>
+      </div>
+
+      <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="testimonial-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <p class="testi-text">Al Faran Travel & Tours made our Dubai trip absolutely magical. From visa processing to hotel bookings, everything was handled professionally. Highly recommended for anyone planning international travel!</p>
+                  <div class="testi-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/80?img=11" alt="Ahmed Khan" class="testi-avatar" />
+                    <div>
+                      <h6 class="testi-name">Ahmed Khan</h6>
+                      <span class="testi-role">Dubai Trip — Family Package</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="testimonial-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <p class="testi-text">Excellent service! Got my UK visa within a week with their assistance. The team at Al Faran is knowledgeable, helpful, and always available. Will definitely use their services again for my Europe tour!</p>
+                  <div class="testi-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/80?img=32" alt="Fatima Zahra" class="testi-avatar" />
+                    <div>
+                      <h6 class="testi-name">Fatima Zahra</h6>
+                      <span class="testi-role">UK Visa Assistance</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="testimonial-card">
+                  <div class="testi-quote"><i class="bi bi-quote"></i></div>
+                  <p class="testi-text">Booked Thailand & Malaysia tour through Al Faran. The itinerary was perfectly planned, hotels were great, and the pricing was very affordable. Our family had the best vacation ever. Thank you Al Faran!</p>
+                  <div class="testi-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                  </div>
+                  <div class="testi-author">
+                    <img src="https://i.pravatar.cc/80?img=59" alt="Usman Siddiqui" class="testi-avatar" />
+                    <div>
+                      <h6 class="testi-name">Usman Siddiqui</h6>
+                      <span class="testi-role">Thailand & Malaysia Tour</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Indicators -->
+        <div class="carousel-indicators testi-indicators">
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Contact <span class="text-gold">Us</span></h2>
+        <p class="section-subtitle">Ready to plan your next adventure? We're here to help!</p>
+      </div>
+
+      <div class="row g-5">
+        <!-- Left: Contact Info -->
+        <div class="col-lg-5">
+          <div class="contact-info-box">
+            <h4 class="contact-info-title">Reach Us Directly</h4>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <h6>Phone / WhatsApp</h6>
+                <a href="tel:03343044483">0334-3044483</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <h6>Email</h6>
+                <a href="mailto:sales.alfarantravels@gmail.com">sales.alfarantravels@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <h6>Address</h6>
+                <p>Al Malik Blessing Apartment,<br />Gulistan-e-Johar Block 19,<br />Karachi, Pakistan</p>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-social mt-4">
+              <a href="https://www.facebook.com/profile.php?id=100078935583599" target="_blank" class="social-btn facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="social-btn instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://wa.me/923343044483" class="social-btn whatsapp"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="col-lg-7">
+          <div class="contact-form-box">
+            <h4 class="contact-info-title">Get Free Consultation</h4>
+
+            <!-- Alert Placeholder -->
+            <div id="formAlert"></div>
+
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Full Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control custom-input" id="fullName" placeholder="Your full name" required />
+                  <div class="invalid-feedback">Please enter your full name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Phone Number <span class="text-danger">*</span></label>
+                  <input type="tel" class="form-control custom-input" id="phone" placeholder="0334-XXXXXXX" required />
+                  <div class="invalid-feedback">Please enter a valid phone number.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control custom-input" id="email" placeholder="your@email.com" required />
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Destination</label>
+                  <select class="form-select custom-input" id="destination">
+                    <option value="">Select Destination</option>
+                    <option>Dubai, UAE</option>
+                    <option>Istanbul, Turkey</option>
+                    <option>London, UK</option>
+                    <option>Paris, France</option>
+                    <option>Bangkok, Thailand</option>
+                    <option>Kuala Lumpur, Malaysia</option>
+                    <option>Singapore</option>
+                    <option>Rome, Italy</option>
+                    <option>Saudi Arabia</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Travel Date</label>
+                  <input type="date" class="form-control custom-input" id="travelDate" />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Number of Travelers</label>
+                  <select class="form-select custom-input" id="travelers">
+                    <option value="">Select</option>
+                    <option>1 Person</option>
+                    <option>2 Persons</option>
+                    <option>3-5 Persons</option>
+                    <option>6-10 Persons</option>
+                    <option>10+ Persons</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Message</label>
+                  <textarea class="form-control custom-input" id="message" rows="4" placeholder="Tell us about your travel plans, requirements, or any questions..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary-custom w-100 btn-lg">
+                    <i class="bi bi-send-fill me-2"></i> Get Free Consultation
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GOOGLE MAP ===== -->
+  <section id="map" class="map-section">
+    <div class="map-header">
+      <i class="bi bi-geo-alt-fill me-2"></i>
+      Find Us — Gulistan-e-Johar Block 19, Karachi
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.2940744929394!2d67.13!3d24.88!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea4f9f99c87%3A0x6b9f09c3aadba65e!2sGulistan-e-Johar%20Block%2019%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+      width="100%"
+      height="500"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="Al Faran Travel & Tours Location"
+    ></iframe>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Brand -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-brand">
+              <div class="d-flex align-items-center gap-2 mb-3">
+                <div class="logo-icon small-logo">
+                  <i class="fa-solid fa-plane-departure"></i>
+                </div>
+                <div>
+                  <div class="footer-brand-name">Al Faran Travel & Tours</div>
+                  <div class="footer-tagline">Your Journey, Our Priority</div>
+                </div>
+              </div>
+              <p class="footer-desc">
+                Serving travelers since 2010 with reliable visa assistance, customized tour packages,
+                flight reservations, and professional travel consultancy from Karachi, Pakistan.
+              </p>
+              <div class="footer-social">
+                <a href="https://www.facebook.com/profile.php?id=100078935583599" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/923343044483" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <h5 class="footer-heading">Quick Links</h5>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <h5 class="footer-heading">Services</h5>
+            <ul class="footer-links">
+              <li><a href="#services">Tour Packages</a></li>
+              <li><a href="#services">Visa Assistance</a></li>
+              <li><a href="#services">Air Ticketing</a></li>
+              <li><a href="#services">Travel Consultancy</a></li>
+              <li><a href="#services">Urgent Appointments</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-lg-4 col-md-6">
+            <h5 class="footer-heading">Contact Us</h5>
+            <ul class="footer-contact">
+              <li>
+                <i class="bi bi-telephone-fill"></i>
+                <a href="tel:03343044483">0334-3044483</a>
+              </li>
+              <li>
+                <i class="bi bi-envelope-fill"></i>
+                <a href="mailto:sales.alfarantravels@gmail.com">sales.alfarantravels@gmail.com</a>
+              </li>
+              <li>
+                <i class="bi bi-geo-alt-fill"></i>
+                <span>Al Malik Blessing Apartment,<br />Gulistan-e-Johar Block 19,<br />Karachi, Pakistan</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <p>&copy; 2024 Al Faran Travel & Tours. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <p>Your Journey, Our Priority <i class="bi bi-airplane-fill ms-1 text-gold"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
